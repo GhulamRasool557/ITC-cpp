@@ -3,8 +3,8 @@
 ## Overview
 
 * This is a **structured C++ practice repository** designed specifically for **beginners**
-* Built to help students develop **strong programming fundamentals** step by step
 * Organized according to a **university ITC syllabus structure** for better learning flow
+* Built to help students develop **strong programming fundamentals** step by step
 
 ## Purpose
 

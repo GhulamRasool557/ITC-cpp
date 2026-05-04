@@ -2,7 +2,9 @@
 
 ## Overview
 
-A collection of beginner-friendly C++ programs for learning basic programming concepts.
+* This is a **structured C++ practice repository** designed specifically for **beginners**
+* Organized according to a **university ITC syllabus structure** for better learning flow
+* Built to help students develop **strong programming fundamentals** step by step
 
 ## Purpose
 
@@ -12,12 +14,11 @@ A collection of beginner-friendly C++ programs for learning basic programming co
 
 ## Structure
 
-* **HelloWorld** – Basic programs
-* **Integer Tasks** – Conditions and calculations
-* **Array Tasks** – Basic array problems
-* **Character Array Tasks** – Character arrays (no string)
-* **Patterns** – Pattern printing using loops
-* **ITC Projects** – Simple beginner projects
+* **01- HelloWorld** – Basic programs
+* **02- Integer Array Tasks** – Conditions and calculations
+* **03- Character Array Tasks** – Character arrays (no string)
+* **04- Patterns** – Pattern printing using loops
+* **05- ITC Projects** – Simple beginner projects
 
 ## Approach
 

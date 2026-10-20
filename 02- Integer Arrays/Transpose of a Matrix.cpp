@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[3][3], transpose[3][3];
+
+    cout << "Enter 9 numbers (3 x 3): " << endl;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            cin >> arr[i][j];
+    }
+
+    // Rows become columns
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            transpose[j][i] = arr[i][j];
+    }
+
+    cout << "Transpose:" << endl;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            cout << transpose[i][j] << " ";
+        cout << endl;
+    }
+
+    return 0;
+}

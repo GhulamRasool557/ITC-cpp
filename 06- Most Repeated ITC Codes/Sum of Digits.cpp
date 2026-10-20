@@ -8,6 +8,9 @@ int main()
     cout << "Input a number: ";
     cin >> num;
 
+    if (num < 0)
+        num = -num;
+
     while (num != 0)
     {
         sum += num % 10;

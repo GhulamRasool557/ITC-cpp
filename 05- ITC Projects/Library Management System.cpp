@@ -75,7 +75,7 @@ int main()
         switch (choice)
         {
         case 1:
-            if (totalBooks < 3)
+            if (totalBooks < 100)
             {
                 cout << "Enter Book ID: ";
                 cin >> id;
@@ -92,7 +92,7 @@ int main()
 
                 if (exist == true)
                 {
-                    cout << "Book already exits" << endl;
+                    cout << "Book already exists" << endl;
                 }
                 else
                 {

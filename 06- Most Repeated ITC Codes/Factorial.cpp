@@ -9,6 +9,12 @@ int main()
     cout << "Input a number: ";
     cin >> num;
 
+    if (num < 0)
+    {
+        cout << "Factorial of a negative number does not exist" << endl;
+        return 0;
+    }
+
     for (int i = 1; i <= num; i++)
     {
         fact *= i;

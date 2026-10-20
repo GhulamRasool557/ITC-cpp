@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    int arr[5];
+    int arr[10];
+    bool counted[10] = {false};
 
     cout << "Enter 10 numbers: ";
     for (int i = 0; i < 10; i++)
@@ -13,7 +14,8 @@ int main()
     {
         int count = 1;
 
-        if (arr[i] == -1)
+        // Skip numbers already counted
+        if (counted[i])
             continue;
 
         for (int j = i + 1; j < 10; j++)
@@ -21,7 +23,7 @@ int main()
             if (arr[i] == arr[j])
             {
                 count++;
-                arr[j] = -1;
+                counted[j] = true;
             }
         }
 

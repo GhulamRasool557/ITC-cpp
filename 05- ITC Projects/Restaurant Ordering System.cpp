@@ -104,7 +104,11 @@ int main()
                     cout << "Enter Quantity: ";
                     cin >> qty;
 
-                    if (qty > 0)
+                    if (orderCount == 100)
+                    {
+                        cout << "Order limit reached!" << endl;
+                    }
+                    else if (qty > 0)
                     {
                         orderCode[orderCount] = code;
                         orderQty[orderCount] = qty;

@@ -8,11 +8,15 @@ int main()
     cout << "Input a number: ";
     cin >> num;
 
-    while (num != 0)
+    if (num < 0)
+        num = -num;
+
+    // do-while so that 0 is counted as 1 digit
+    do
     {
         num /= 10;
         count++;
-    }
+    } while (num != 0);
 
     cout << "The frequency of digits: " << count << endl;
 

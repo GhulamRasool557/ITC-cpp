@@ -51,8 +51,6 @@ int main()
     float tax;
     float finalBill;
 
-    bool found;
-
     // ----------- WELCOME -----------
     cout << "===================================" << endl;
     cout << "        BILLING SYSTEM             " << endl;
